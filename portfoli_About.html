@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio for Summer Davis showcasing her accomplishements at American Public University Systems and web development projects and other works.">
-    <meta name="keywords" content="portfolio, web developer, Summer Davis, HTML, CSS, JavaScript, responsive design, accessibility, projects, advocacy, pitbull advocacy, pet adoption, creative projects, programming, front-end development, web design">
-    <meta name="author" content="Summer Davis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summer Davis Portfolio</title>
+    <title>About Me | Summer Davis</title>
     <link rel="stylesheet" href="PortfolioStyleSheet.css">
-    <script>
-        function welcomeMessage() {
-            alert("Welcome to My Portfolio!");
-        }
-    </script>
 </head>
-
-<body onload="welcomeMessage()">
-
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="Portfolio.html" class="logo">Summer Davis</a>
+        <ul class="nav-links">
+            <li><a href="index.html"
+             <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="portfolio_About.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-</body>
+</header>
 
+    <main class="about">
+        <section class="intro">
+            <img src="photo.jpg" alt="Photo of Summer Davis" class="profile-pic">
+            <div class="intro-text">
+                <h1>Hi, I'm Summer</h1>
+                <p>
+                    I'm a Frontend Web Developer passionate about creating responsive, accessible, and user-focused websites. 
+                    My work blends clean, semantic code with thoughtful UI/UX design, ensuring every project is both functional and engaging. 
+                </p>
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>Education</h2>
+           <p>
+               I'm currently pursuing a <strong>Bachelor's degree in Computer Technology with a minor in Web Development</strong>
+               at American Public University Systems. My coursework emphasizes HTLM5, CSS3, JavaScript, Python, and modular code design, 
+               preparing me to deliver scalable, user-focused web solutions. 
+           </p>
+
+        <section class="details">
+            <h2>What I Do</h2>
+            <p>
+                   I specialize in building clean, semantic, and responsive websites while incorporating thoughtful UI/UX design and 
+                accessibility best practices.
+            </p>
+
+            <h2>Why I Do It</h2>
+            <p>
+                Beyond code, I'm driven by advocacy. Through projects like <em>Unleashing Truth</em>,
+                I use technology to challenge misconception about pit bulls and promote responsible pet ownership.
+            </p>
+
+            <h2>Outside of Work</h2>
+            <p>
+                When I'm not coding, you'll find me designing creative branding concepts, refining my portfolio, 
+                or spending time with my dogs, who inspire much of my work.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Summer Davis | Built with love and clean code</p>
+    </footer>
+</body>
 </html>
