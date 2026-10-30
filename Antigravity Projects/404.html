@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404: Lost in the SASSy Matrix | Summer Bethany Davis</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .error-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .error-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-active);
+      border-radius: var(--radius-lg);
+      padding: 3.5rem 2.5rem;
+      max-width: 580px;
+      box-shadow: var(--shadow-glow);
+    }
+    .error-code {
+      font-size: clamp(4rem, 12vw, 7rem);
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, var(--sassy-pink), var(--cyber-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .error-title {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: var(--text-main);
+    }
+    .error-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    .error-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="glow-orb orb-pink"></div>
+    <div class="glow-orb orb-violet"></div>
+    <div class="glow-orb orb-cyan"></div>
+  </div>
+
+  <main class="error-wrapper">
+    <div class="error-card">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found in the SASSy Matrix</h1>
+      <p class="error-desc">
+        Looks like you took a turn into unmapped cyberspace. Even the cleanest code hits an unexpected route once in a while. Let's get you back to the main stage.
+      </p>
+      <div class="error-actions">
+        <a href="index.html" class="btn btn-primary">
+          <span>← Back to Summer's Portfolio</span>
+        </a>
+        <a href="index.html#contact" class="btn btn-outline">
+          <span>Contact Summer</span>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+

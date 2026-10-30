@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://summsum1203.github.io/Portfolio-Website/sitemap.xml
+

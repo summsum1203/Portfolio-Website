@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Bethany Davis | SASSy Frontend Developer &amp; UX Designer</title>
+  <meta name="description"
+    content="Award-winning portfolio of Summer Bethany Davis — Frontend Web Developer & UX Designer. Showcasing an inspiring academic journey, production projects, and a fearless SASSy tech attitude.">
+  <meta name="author" content="Summer Bethany Davis">
+
+  <!-- Open Graph & Social Sharing -->
+  <meta property="og:title" content="Summer Bethany Davis — SASSy Frontend Developer &amp; UX Designer">
+  <meta property="og:description"
+    content="Smart, accessible, stylish web experiences built with modern code, deep human empathy, and unapologetic tech creativity.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://summsum1203.github.io/Portfolio-Website/">
+  <meta property="og:image" content="assets/img/summer-headshot.png">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Summer Bethany Davis — SASSy Frontend Developer &amp; UX Designer">
+  <meta name="twitter:description"
+    content="Smart, accessible, stylish web experiences built with modern code, deep human empathy, and unapologetic tech creativity.">
+  <meta name="twitter:image" content="assets/img/summer-headshot.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicons/site.webmanifest">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip directly to main content</a>
+
+  <!-- Ambient Dynamic Glow Mesh Background -->
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="glow-orb orb-pink"></div>
+    <div class="glow-orb orb-violet"></div>
+    <div class="glow-orb orb-cyan"></div>
+  </div>
+
+  <!-- Primary Site Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand" aria-label="SASSy code homepage">
+        <div class="brand-badge" aria-hidden="true">S</div>
+        <div class="brand-name">SASSy<span>.code</span></div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#philosophy">SASSy Attitude</a></li>
+          <li><a href="#journey">Journey &amp; Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Controls -->
+      <div class="nav-controls">
+        <!-- Interactive Terminal Easter Egg Trigger -->
+        <button id="btn-terminal-trigger" class="btn-terminal-nav" title="Launch interactive SASSy CLI (Ctrl+K)"
+          aria-label="Open Interactive SASSy CLI Terminal">
+          <span>&gt;_</span> CLI
+        </button>
+
+        <!-- Theme Toggle (Dark Neon Noir vs Light Luxe Daylight) -->
+        <button id="btn-theme-toggle" class="btn-icon" title="Toggle Theme" aria-label="Toggle Light/Dark Theme">
+          <span id="theme-icon">☀️</span>
+        </button>
+
+        <!-- ATS Resume & Presentation Direct Links -->
+        <a href="assets/docs/Summer_Davis_Resume.pdf" download="Summer_Davis_Resume.pdf"
+          class="btn btn-outline btn-card" title="Download ATS Resume PDF">
+          <span>Resume PDF</span>
+        </a>
+        <a href="assets/docs/Summer_Davis_Portfolio_Presentation.pdf" target="_blank" rel="noopener"
+          class="btn btn-outline btn-card" title="Open Canva Portfolio Presentation (PDF)">
+          <span>📊 Presentation</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="btn-mobile-menu" class="btn-icon menu-toggle" aria-label="Toggle Navigation Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Full-Time Frontend Roles &amp; High-Impact Projects</span>
+          </div>
+
+          <h1 id="hero-title">
+            Pixel-Perfect Code with an Unapologetic <span class="gradient-text">SASSy Attitude.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I'm <strong>Summer Bethany Davis</strong> — Frontend Developer &amp; UX Strategist. I transform complex
+            ideas into bold, accessible, and conversion-focused web applications. Blending 18+ years of high-empathy
+            customer leadership with Dean's List academic rigor and modern code craftsmanship.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <span aria-hidden="true">→</span>
+            </a>
+            <button id="btn-hero-terminal" class="btn btn-cyan" title="Launch Terminal Easter Egg">
+              <span>&gt;_ Launch SASSy CLI</span>
+            </button>
+            <a href="assets/docs/Summer_Davis_Portfolio_Presentation.pdf" target="_blank" rel="noopener"
+              class="btn btn-outline" title="Open Summer's Canva Portfolio Presentation">
+              <span>📊 Canva Slide Deck</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Let's Talk Dream Job</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics-strip">
+            <div class="metric-item">
+              <strong>4.0 / 3.8</strong>
+              <span>Academic GPA (APSU &amp; AIU)</span>
+            </div>
+            <div class="metric-item">
+              <strong>100%</strong>
+              <span>WCAG 2.1 AA Accessibility</span>
+            </div>
+            <div class="metric-item">
+              <strong>40+</strong>
+              <span>Projects, Components &amp; Builds</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-card">
+              <img src="assets/img/summer-headshot.png"
+                alt="Summer Bethany Davis, Frontend Web Developer and UX Designer" class="avatar-img">
+              <div class="avatar-overlay-badge">
+                <div>
+                  <h3>Summer B. Davis</h3>
+                  <p>Frontend Engineer &amp; Designer</p>
+                </div>
+                <span class="badge-tag">SASSy &amp; Ready</span>
+              </div>
+            </div>
+            <!-- Floating Tech Badges -->
+            <div class="floating-pill pill-react">
+              <span aria-hidden="true">⚛️</span> React &amp; Modern JS
+            </div>
+            <div class="floating-pill pill-a11y">
+              <span aria-hidden="true">♿</span> WCAG 2.1 AA First
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE SASSY PHILOSOPHY SECTION -->
+    <section id="philosophy" class="sassy-strip" aria-labelledby="philosophy-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Brand Philosophy</span>
+          <h2 id="philosophy-title">What Makes <span class="gradient-text">SASSy.code</span> Different?</h2>
+          <p>Sassy isn't just an attitude—it's a high-standard engineering mindset that rejects boring, fragile, and
+            inaccessible web design.</p>
+        </div>
+
+        <div class="sassy-grid">
+          <article class="sassy-card">
+            <div class="sassy-letter" aria-hidden="true">S</div>
+            <h3>Smart Architecture</h3>
+            <p>Clean, semantic HTML5 markup, modular CSS/SASS architectures, and performant JavaScript designed to scale
+              gracefully.</p>
+          </article>
+
+          <article class="sassy-card">
+            <div class="sassy-letter" aria-hidden="true">A</div>
+            <h3>Accessible to All</h3>
+            <p>Zero compromises on inclusivity. Strict adherence to WCAG 2.1 AA guidelines, keyboard navigability, and
+              screen reader clarity.</p>
+          </article>
+
+          <article class="sassy-card">
+            <div class="sassy-letter" aria-hidden="true">S</div>
+            <h3>Stylish Micro-Interactions</h3>
+            <p>Bespoke typography, intentional motion design, and delightful micro-interactions that make users smile
+              and keep them engaged.</p>
+          </article>
+
+          <article class="sassy-card">
+            <div class="sassy-letter" aria-hidden="true">S</div>
+            <h3>Solutions-Driven ROI</h3>
+            <p>Combining frontend engineering with a 3.8 GPA business background to ensure every pixel serves conversion
+              goals and real business growth.</p>
+          </article>
+
+          <article class="sassy-card">
+            <div class="sassy-letter" aria-hidden="true">Y</div>
+            <h3>Your Secret Weapon</h3>
+            <p>18+ years of battle-tested human empathy and de-escalation expertise. A team player who communicates
+              clearly and thrives under pressure.</p>
+          </article>
+        </div>
+
+        <!-- SASSy Brand Intro Video Player -->
+        <div style="margin-top: 2.5rem; text-align: center;">
+          <button id="btn-toggle-video" class="btn btn-outline" style="gap: 0.5rem;" aria-expanded="false"
+            aria-controls="brand-video-container">
+            <span>▶ Watch 10s SASSy Brand Intro</span>
+          </button>
+          <div id="brand-video-container"
+            style="display: none; max-width: 540px; margin: 1.5rem auto 0; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-active); box-shadow: var(--shadow-glow);">
+            <video id="brand-video" controls width="100%" style="display: block; background: #000;">
+              <source src="assets/img/sassy.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATIONAL JOURNEY & NON-TRADITIONAL SUPERPOWER -->
+    <section id="journey" class="journey-section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Academic &amp; Career Evolution</span>
+          <h2 id="journey-title">The Journey of a <span class="gradient-cyan">Modern Polymath</span></h2>
+          <p>How 18+ years of customer empathy, business acumen, and rigorous computer technology studies forged an
+            unstoppable developer.</p>
+        </div>
+
+        <!-- Story Overview Banner -->
+        <div class="journey-story-box">
+          <div class="journey-story-text">
+            <h3>My Non-Traditional Superpower</h3>
+            <p>
+              I am not your average junior developer who only knows how to copy tutorials. I spent 18+ years on the
+              frontlines of high-volume customer service leadership, earning multiple "Employee of the Month" honors and
+              mastering the art of rapid problem resolution, customer de-escalation, and empathetic communication.
+            </p>
+            <p>
+              When I pivoted into technology, I brought that human understanding with me. Coupled with a 3.8 GPA in
+              Business Administration from AIU, high-achieving transfer coursework at APUS (3.4061 GPA), and a 4.0 GPA
+              currently pursuing my Bachelor of Science in Computer Information Technology at Austin Peay State
+              University, I write code that serves real human needs and moves business metrics.
+            </p>
+          </div>
+
+          <div class="superpower-badges">
+            <div class="superpower-card">
+              <span class="superpower-icon" aria-hidden="true">💡</span>
+              <div>
+                <strong>High-EQ Problem Solver</strong>
+                <span>Translates user frustrations into elegant, intuitive UI solutions.</span>
+              </div>
+            </div>
+            <div class="superpower-card">
+              <span class="superpower-icon" aria-hidden="true">🎯</span>
+              <div>
+                <strong>Business Strategy + Code</strong>
+                <span>Speaks the language of both product managers and engineering leads.</span>
+              </div>
+            </div>
+            <div class="superpower-card">
+              <span class="superpower-icon" aria-hidden="true">🔥</span>
+              <div>
+                <strong>Relentless Grit &amp; Curiosity</strong>
+                <span>Continuous learner constantly expanding into React, TypeScript, and APIs.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Journey Timeline -->
+        <div class="timeline">
+          <!-- Timeline Item 1: Austin Peay State University (Current) -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">Mar 2026 – Present</span>
+                <span class="gpa-tag">GPA: 4.0 · In Progress</span>
+              </div>
+              <h4>Bachelor of Science in Computer Information Technology</h4>
+              <p class="institution">Austin Peay State University (APSU)</p>
+              <p>
+                Currently attending and actively pursuing a B.S. in Computer Information Technology while maintaining a
+                perfect 4.0 GPA. Advanced coursework focuses on systems engineering, software logic, and modern
+                application development.
+              </p>
+              <div class="course-chips">
+                <span>Computer Information Technology</span>
+                <span>Software Logic &amp; Architecture</span>
+                <span>Data Modeling</span>
+                <span>Technical Problem Solving</span>
+                <span>Systems Engineering</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Timeline Item 2: American Public University System (Transferred) -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">Transferred Mar 2026</span>
+                <span class="gpa-tag">GPA: 3.4061 · Transferred</span>
+              </div>
+              <h4>Undergraduate Computer Information Technology Studies</h4>
+              <p class="institution">American Public University System (APUS)</p>
+              <p>
+                Rigorous foundational and intermediate web development and software architecture studies. Completed
+                extensive technical coursework earning a 3.4061 GPA before transferring into Austin Peay State
+                University to continue degree progression.
+              </p>
+              <div class="course-chips">
+                <span>Web Development Fundamentals</span>
+                <span>Intermediate Web Dev</span>
+                <span>JavaScript Programming</span>
+                <span>Python Fundamentals (ENTD220)</span>
+                <span>CSCI1010/1011</span>
+                <span>SQL Database Design</span>
+                <span>IT Project Management</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Timeline Item 3: AIU Business (Transferred) -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">Aug 2022 – 2023</span>
+                <span class="gpa-tag">GPA: 3.8 (Dean's List) · Transferred</span>
+              </div>
+              <h4>Business Administration Studies</h4>
+              <p class="institution">American InterContinental University (AIU)</p>
+              <p>
+                Dean's List academic performance focusing on organizational leadership, financial metrics, consumer
+                marketing, and conversion funnel optimization. Successfully transferred academic credits to American
+                Public University System.
+              </p>
+              <div class="course-chips">
+                <span>Strategic Marketing</span>
+                <span>Business Communications</span>
+                <span>Consumer Psychology</span>
+                <span>Operations &amp; Metrics</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Timeline Item 3: Retail Customer Experience Leadership -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">Jan 2004 – Jul 2022</span>
+                <span class="gpa-tag">18+ Years Leadership</span>
+              </div>
+              <h4>Customer Experience Specialist &amp; Team Trainer</h4>
+              <p class="institution">Cracker Barrel Old Country Store &amp; Retail (Morristown, TN)</p>
+              <p>
+                Delivered exceptional guest experiences in high-pressure environments. Earned multiple Employee of the
+                Month honors, trained and mentored cohorts of 10+ new hires, and honed master-level conflict resolution.
+              </p>
+              <div class="course-chips">
+                <span>Team Training &amp; Mentorship</span>
+                <span>Conflict De-escalation</span>
+                <span>Agile Multi-tasking</span>
+                <span>Cross-functional Coordination</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Timeline Item 4: High School Diploma -->
+          <div class="timeline-item">
+            <div class="timeline-node" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">1994 – 1999</span>
+                <span class="gpa-tag">Diploma</span>
+              </div>
+              <h4>High School Diploma</h4>
+              <p class="institution">Jefferson County High School</p>
+              <p>
+                Strong foundations in mathematics, communications, and visual arts that sparked a lifelong curiosity in
+                creative expression.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SHOWCASE -->
+    <section id="projects" class="projects-section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Proof in Production</span>
+          <h2 id="projects-title">Featured Projects &amp; <span class="gradient-text">Case Studies</span></h2>
+          <p>Hand-crafted web applications designed with semantic code, modern aesthetics, and rigorous accessibility
+            standards.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Applications</button>
+          <button class="filter-btn" data-filter="advocacy">Advocacy &amp; Community</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce &amp; Brands</button>
+          <button class="filter-btn" data-filter="components">UI Components &amp; Tools</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Unleashing Truth -->
+          <article class="project-card" data-category="web advocacy">
+            <div class="project-thumbnail">
+              <img src="assets/img/unleashtruth.jpg" alt="Unleashing Truth Advocacy Platform Preview">
+              <span class="project-badge-overlay">Advocacy &amp; Accessibility</span>
+            </div>
+            <div class="project-body">
+              <h3>Unleashing Truth</h3>
+              <p class="project-punchline">Empowering voices with empathetic, WCAG-compliant design</p>
+              <p class="project-desc">
+                A responsive advocacy platform built from the ground up to give community voices a safe, accessible
+                digital space. Designed in Figma and developed with semantic HTML5, CSS3, and modern JavaScript.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3/SASS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">WCAG 2.1 AA</span>
+                <span class="tech-tag">Figma</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="unleashing-truth">Deep Dive Case
+                  Study</button>
+                <a href="https://github.com/summsum1203/Portfolio-Website.git" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Paw'tique Boutique -->
+          <article class="project-card" data-category="web ecommerce">
+            <div class="project-thumbnail">
+              <img src="assets/img/pawtique.jpg" alt="Paw'tique Boutique E-Commerce Website Preview">
+              <span class="project-badge-overlay">E-Commerce &amp; Branding</span>
+            </div>
+            <div class="project-body">
+              <h3>Paw’tique Boutique</h3>
+              <p class="project-punchline">Heartwarming pet lifestyle &amp; boutique shopping experience</p>
+              <p class="project-desc">
+                A joyful digital storefront concept designed for modern pet owners. Features custom product cards,
+                interactive cart flows, and vibrant branding inspired by Summer's rescue dog, Shysti Mae.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Semantic HTML</span>
+                <span class="tech-tag">CSS Grid/Flexbox</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">UI/UX Design</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="pawtique">Deep Dive Case Study</button>
+                <a href="https://github.com/summsum1203" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: SASSy Pomodoro Studio -->
+          <article class="project-card" data-category="web components">
+            <div class="project-thumbnail">
+              <img src="assets/img/pomodoro.png" alt="SASSy Pomodoro Studio Preview">
+              <span class="project-badge-overlay">Productivity App</span>
+            </div>
+            <div class="project-body">
+              <h3>SASSy Pomodoro Studio</h3>
+              <p class="project-punchline">Science-backed focus timer with ambient vibes &amp; streak tracking</p>
+              <p class="project-desc">
+                A distraction-free productivity app built to master workflow focus. Includes custom work/break
+                intervals, audio notification cues via Web Audio API, and persistent stats saved to LocalStorage.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">React / JS</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Web Audio API</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="pomodoro">Deep Dive Case Study</button>
+                <a href="https://github.com/summsum1203" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Health Communications Hub -->
+          <article class="project-card" data-category="advocacy components">
+            <div class="project-thumbnail">
+              <img src="assets/img/infographic-health.png" alt="Health Communications Hub and Infographic Preview">
+              <span class="project-badge-overlay">Information Architecture</span>
+            </div>
+            <div class="project-body">
+              <h3>Health Communications Hub</h3>
+              <p class="project-punchline">Transforming complex health guidelines into accessible visuals</p>
+              <p class="project-desc">
+                An information design initiative converting dense medical guidelines into clear, empathetic infographics
+                and responsive digital newsletters tailored for diverse community demographics.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Figma &amp; Adobe</span>
+                <span class="tech-tag">Data Visualization</span>
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">Accessible Print/Web</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="health-hub">Deep Dive Case Study</button>
+                <a href="https://github.com/summsum1203" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: SASSy UI Component Lab -->
+          <article class="project-card" data-category="components">
+            <div class="project-thumbnail">
+              <img src="assets/img/portfolio-prev.jpg" alt="SASSy UI Component Lab Preview">
+              <span class="project-badge-overlay">Design System &amp; UI Lab</span>
+            </div>
+            <div class="project-body">
+              <h3>SASSy UI Component Lab</h3>
+              <p class="project-punchline">Accessible micro-components with zero dependency bloat</p>
+              <p class="project-desc">
+                A handcrafted suite of reusable UI primitives: dynamic changelogs, custom dropdowns, accessible
+                datepickers, and 3D testimonial flip cards, built to adhere to strict WAI-ARIA authoring practices.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Vanilla JS ES6+</span>
+                <span class="tech-tag">SCSS / CSS Custom Props</span>
+                <span class="tech-tag">WAI-ARIA</span>
+                <span class="tech-tag">Micro-Interactions</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="component-lab">Deep Dive Case Study</button>
+                <a href="https://github.com/summsum1203" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Shysti Mae & Community Care -->
+          <article class="project-card" data-category="advocacy ecommerce">
+            <div class="project-thumbnail">
+              <img src="assets/img/shysti-mae.jpg" alt="Shysti Mae Pet Care and Advocacy Initiative">
+              <span class="project-badge-overlay">Community &amp; Culture</span>
+            </div>
+            <div class="project-body">
+              <h3>The Shysti Mae Project</h3>
+              <p class="project-punchline">Pet advocacy, rescue community engagement &amp; brand story</p>
+              <p class="project-desc">
+                An interactive storytelling campaign championing animal welfare, adoption awareness, and responsible pet
+                nutrition. Blends heartfelt photography with responsive, accessible layout engineering.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Brand Storytelling</span>
+                <span class="tech-tag">Visual Identity</span>
+                <span class="tech-tag">Responsive Media</span>
+                <span class="tech-tag">Social Advocacy</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-card" data-open-study="shysti-mae">View Story &amp; Case
+                  Study</button>
+                <a href="https://github.com/summsum1203" target="_blank" rel="noopener"
+                  class="btn btn-outline btn-card">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE TECH SKILLS & PLAYGROUND -->
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Engineering Arsenal</span>
+          <h2 id="skills-title">Technical Skills &amp; <span class="gradient-cyan">Creative Superpowers</span></h2>
+          <p>The tools and disciplines I use every day to build resilient, accessible, and high-performance digital
+            products.</p>
+        </div>
+
+        <div class="skills-layout">
+          <!-- Category 1: Frontend Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">💻</div>
+              <div>
+                <h3>Frontend Engineering</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Core Stack</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-row">
+                <div class="skill-info"><span>HTML5 (Semantic &amp; SEO)</span> <span>98%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 98%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>CSS3 / SCSS / Sass</span> <span>95%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>JavaScript (ES6+ / DOM / Async)</span> <span>90%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>React &amp; TypeScript</span> <span>82%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 82%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: UI/UX & Design Systems -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">🎨</div>
+              <div>
+                <h3>Design &amp; Prototyping</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Visual Systems</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-row">
+                <div class="skill-info"><span>Figma Wireframing &amp; Prototyping</span> <span>92%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Design Systems &amp; Tokens</span> <span>88%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Typography &amp; Color Psychology</span> <span>94%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 94%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Responsive Grid Systems</span> <span>96%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 96%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Accessibility & Standards -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">♿</div>
+              <div>
+                <h3>Accessibility &amp; Quality</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Inclusive Web</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-row">
+                <div class="skill-info"><span>WCAG 2.1 AA Compliance</span> <span>100%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Keyboard Navigation &amp; Focus Flow</span> <span>96%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 96%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Screen Reader Optimization (ARIA)</span> <span>92%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Cross-Browser Compatibility</span> <span>94%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 94%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Workflow, Tools & Soft Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">⚡</div>
+              <div>
+                <h3>Dev Tools &amp; Human EQ</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Delivery Engine</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-row">
+                <div class="skill-info"><span>Git &amp; GitHub Version Control</span> <span>90%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Python (CS Fundamentals - ENTD220)</span> <span>80%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Empathy &amp; Conflict De-escalation</span> <span>100%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-info"><span>Agile Teamwork &amp; Communication</span> <span>98%</span></div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" style="width: 98%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURE VALUE OFFERS -->
+    <section id="offers" class="offers-section" aria-labelledby="offers-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Value Proposition</span>
+          <h2 id="offers-title">What I Bring to Your <span class="gradient-text">Engineering Team</span></h2>
+          <p>Whether you're looking for a passionate full-time junior frontend engineer or a high-energy builder for
+            your next launch.</p>
+        </div>
+
+        <div class="offers-grid">
+          <article class="offer-card featured">
+            <span class="offer-tag">Signature Offer</span>
+            <h3>48-Hour Rapid Homepage Concept</h3>
+            <p>
+              For hiring teams and select clients: I take your product concept, wireframe it, and deliver a fully
+              functional, mobile-responsive prototype within 48 hours to prove direction and velocity.
+            </p>
+            <ul class="offer-checklist">
+              <li>Conversion-first headline and layout strategy</li>
+              <li>Pixel-perfect responsive desktop and mobile prototype</li>
+              <li>Semantic markup and WCAG accessibility baseline check</li>
+              <li>Action plan for complete component integration</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="margin-top: auto;">Request a 48-Hr Concept</a>
+          </article>
+
+          <article class="offer-card">
+            <span class="offer-tag">Core Value</span>
+            <h3>Accessibility &amp; UX Audit</h3>
+            <p>
+              Is your existing website alienating users or failing compliance audits? I conduct end-to-end audits of
+              keyboard accessibility, screen-reader semantics, color contrast, and UX flow friction.
+            </p>
+            <ul class="offer-checklist">
+              <li>Comprehensive WCAG 2.1 AA compliance audit report</li>
+              <li>Actionable CSS/HTML code fixes for identified issues</li>
+              <li>Performance tuning to achieve sub-2s page load speeds</li>
+              <li>User journey friction removal and form optimization</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline" style="margin-top: auto;">Schedule an Audit</a>
+          </article>
+
+          <article class="offer-card">
+            <span class="offer-tag">Career Target</span>
+            <h3>Full-Time Frontend Developer</h3>
+            <p>
+              Looking for a dependable, high-grit developer who shows up every single day with curiosity, positive
+              energy, and pride in their craft? I'm ready to contribute from day one.
+            </p>
+            <ul class="offer-checklist">
+              <li>Ready to integrate into your existing Git / Agile sprint cycles</li>
+              <li>Rapid learner hungry to absorb senior engineering mentorship</li>
+              <li>Cross-functional communicator who bridges design and code</li>
+              <li>Available to start immediately (Remote or Hybrid)</li>
+            </ul>
+            <a href="#contact" class="btn btn-cyan" style="margin-top: auto;">Invite to Interview</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & HIRE ME PORTAL -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-info">
+            <span class="section-tag">Let's Connect</span>
+            <h2 id="contact-title">Ready to Add Some <span class="gradient-text">SASS</span> to Your Team?</h2>
+            <p>
+              I am actively interviewing for full-time Frontend Web Developer, Junior Software Engineer, and UI/UX
+              engineering roles. Let's build something unforgettable together.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:summerD1203@gmail.com" class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">📧</div>
+                <div class="method-details">
+                  <strong>Direct Email</strong>
+                  <span>summerD1203@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/summer-davis-61a8296248" target="_blank" rel="noopener"
+                class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">💼</div>
+                <div class="method-details">
+                  <strong>LinkedIn Profile</strong>
+                  <span>linkedin.com/in/summer-davis-61a8296248</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/summsum1203" target="_blank" rel="noopener" class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">🐙</div>
+                <div class="method-details">
+                  <strong>GitHub Portfolio</strong>
+                  <span>github.com/summsum1203</span>
+                </div>
+              </a>
+
+              <div class="contact-method-item">
+                <div class="method-icon" aria-hidden="true">📍</div>
+                <div class="method-details">
+                  <strong>Location &amp; Availability</strong>
+                  <span>Newport, TN (Open to Remote Worldwide &amp; Hybrid)</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <a href="assets/docs/Summer_Davis_Resume.pdf" download="Summer_Davis_Resume.pdf" class="btn btn-primary">
+                <span>Download Summer's Resume (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div>
+            <form id="portfolio-contact-form" class="contact-form" aria-label="Send Summer a message">
+              <div class="form-group">
+                <label for="form-name">Your Name</label>
+                <input type="text" id="form-name" class="form-control" placeholder="e.g. Sarah Connor" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Work Email</label>
+                <input type="email" id="form-email" class="form-control" placeholder="e.g. sarah@innovatetech.com"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">How Can We Collaborate?</label>
+                <textarea id="form-message" class="form-control"
+                  placeholder="Tell me about your team, your open role, or your vision..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message to Summer</span>
+                <span aria-hidden="true">🚀</span>
+              </button>
+
+              <div id="form-feedback" class="form-feedback" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-copy">
+        <p>&copy; 2026 Summer Bethany Davis · <strong>SASSy.code Web Development</strong></p>
+        <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.25rem;">Built with semantic HTML5, modern
+          SCSS &amp; zero compromises on accessibility.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/summsum1203" target="_blank" rel="noopener" class="social-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/summer-davis-61a8296248" target="_blank" rel="noopener"
+          class="social-link">LinkedIn</a>
+        <a href="assets/docs/Summer_Davis_Resume.pdf" target="_blank" class="social-link">Resume</a>
+        <a href="#hero" class="social-link">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE SASSY TERMINAL MODAL (EASTER EGG) -->
+  <div id="terminal-overlay" class="terminal-overlay" role="dialog" aria-modal="true"
+    aria-label="Interactive SASSy CLI Console">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <span class="terminal-dot dot-red"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+        </div>
+        <div class="terminal-title">summer@sassycode: ~ (interactive cli)</div>
+        <button id="terminal-close" class="terminal-close" aria-label="Close Terminal">&times;</button>
+      </div>
+      <div class="terminal-body">
+        <div id="terminal-output" class="terminal-output">
+          <p class="highlight">✨ Welcome to the SASSy.code Interactive CLI! ✨</p>
+          <p>Explore Summer's background, education, and attitude using real terminal commands.</p>
+          <p>Type <strong class="prompt-line">help</strong> to see what you can do, or try <strong
+              class="highlight">sudo hire-summer</strong>!</p>
+        </div>
+        <div class="terminal-input-row">
+          <span class="terminal-prompt">visitor@sassycode:~$</span>
+          <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false"
+            aria-label="Terminal command input">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CASE STUDY DEEP DIVE MODAL -->
+  <div id="case-study-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Case Study Deep Dive">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close Case Study">&times;</button>
+      <div id="modal-body-content">
+        <!-- Injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/terminal.js"></script>
+</body>
+
+</html>
