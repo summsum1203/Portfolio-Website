@@ -32,7 +32,7 @@
 <p><strong>attitude</strong>    - Dispense a fresh dose of SASSy tech wisdom</p>
 <p><strong>shysti</strong>      - Meet Shysti Mae, Chief Happiness Officer 🐾</p>
 <p><strong>presentation</strong> - View Summer's Canva Portfolio Slide Deck</p>
-<p><strong>resume</strong>      - View Summer's CV</p>
+<p><strong>resume</strong>      - Download Summer's ATS-friendly resume</p>
 <p><strong>contact</strong>     - Connect directly via email or LinkedIn</p>
 <p><strong>clear</strong>       - Clear terminal screen</p>
 <p><strong>exit</strong>        - Close the SASSy terminal</p>
@@ -114,11 +114,11 @@
 
     resume: () => {
       const link = document.createElement('a');
-      link.href = 'https://summsum1203.github.io/Single-Page-CV/';
+      link.href = 'assets/docs/Summer_Davis_Resume.pdf';
+      link.download = 'Summer_Davis_Resume.pdf';
       link.target = '_blank';
-      link.rel = 'noopener';
       link.click();
-      return `<p class="success">📄 Summer's CV opened successfully!</p>`;
+      return `<p class="success">📄 Summer_Davis_Resume.pdf opened / downloaded successfully!</p>`;
     },
 
     contact: () => `
