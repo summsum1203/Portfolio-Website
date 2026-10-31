@@ -57,7 +57,7 @@ This portfolio showcases production web applications, accessible design systems,
 - **LinkedIn**: [linkedin.com/in/summer-davis-dev](https://www.linkedin.com/in/summer-davis-dev)
 - **GitHub**: [@summsum1203](https://github.com/summsum1203)
 - **Portfolio Presentation**: [Download Canva Slide Deck PDF](assets/docs/Summer_Davis_Portfolio_Presentation.pdf)
-- **Resume**: [Download ATS Resume PDF](assets/docs/Summer_Davis_Resume.pdf)
+- **CV**: [View Single-Page CV](https://summsum1203.github.io/Single-Page-CV/)
 
 ---
 
