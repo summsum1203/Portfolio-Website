@@ -44,9 +44,8 @@ This portfolio showcases production web applications, accessible design systems,
 
 ## 🎓 Academic Credentials
 
-- **Austin Peay State University (APSU)** — *B.S. in Computer Information Technology (Web & Data)
-- * (April 2026 – Present) | **GPA: 4.0 (In Progress)**
-- **American Public University System (APUS)** — *Undergraduate CIT Studies (Web Developmet)* (Transferred March 2026) | **GPA: 3.4061**
+- **Austin Peay State University (APSU)** — *B.S. in Computer Information Technology (Web & Data)* (April 2026 – Present) | **GPA: 4.0 (In Progress)**
+- **American Public University System (APUS)** — *Undergraduate CIT Studies (Web Development)* (Transferred March 2026) | **GPA: 3.4061**
 - **American InterContinental University (AIU)** — *Business Administration Studies* | **GPA: 3.8 (Dean's List)**
 
 ---

@@ -124,7 +124,7 @@
     contact: () => `
 <p class="highlight">=== GET IN TOUCH WITH SUMMER ===</p>
 <p>📧 Email: <a href="mailto:summerD1203@gmail.com" style="color: #00f0ff;">summerD1203@gmail.com</a></p>
-<p>💼 LinkedIn: <a href="https://www.linkedin.com/in/summer-davis-61a8296248" target="_blank" style="color: #00f0ff;">linkedin.com/in/summer-davis-61a8296248</a></p>
+<p>💼 LinkedIn: <a href="https://www.linkedin.com/in/summer-davis-dev" target="_blank" style="color: #00f0ff;">linkedin.com/in/summer-davis-dev</a></p>
 <p>🐙 GitHub: <a href="https://github.com/summsum1203" target="_blank" style="color: #00f0ff;">github.com/summsum1203</a></p>
 <p>📍 Location: Newport, TN (Open to Remote Worldwide, Hybrid, & Relocation)</p>
 `,
