@@ -31,6 +31,8 @@
 <p><strong>skills</strong>      - Core tech stack & design capabilities</p>
 <p><strong>attitude</strong>    - Dispense a fresh dose of SASSy tech wisdom</p>
 <p><strong>shysti</strong>      - Meet Shysti Mae, Chief Happiness Officer 🐾</p>
+<p><strong>aliensuit</strong>   - Newport homeless relief &amp; wearable sleeping bags 🛸</p>
+<p><strong>donate</strong>      - Sponsor an Alien Suit for an unsheltered neighbor</p>
 <p><strong>presentation</strong> - View Summer's Canva Portfolio Slide Deck</p>
 <p><strong>resume</strong>      - Download Summer's ATS-friendly resume</p>
 <p><strong>contact</strong>     - Connect directly via email or LinkedIn</p>
@@ -103,6 +105,25 @@
 </pre>
 <p>Shysti Mae is Summer's beloved canine muse, pet photo contest star, and chief bug-detector. Whenever code gets tricky, Shysti reminds Summer to take a walk, breathe, and come back with fresh eyes.</p>
 `,
+
+    aliensuit: () => `
+<p class="highlight">🛸 THE NEWPORT ALIEN SUIT INITIATIVE (COMMUNITY RELIEF)</p>
+<p>An emergency grassroots campaign founded by Summer in Newport, Cocke County, TN.</p>
+<p>• <strong>The Crisis:</strong> Freezing winter temperatures along the French Broad &amp; Pigeon Rivers with zero dedicated municipal homeless shelters in Cocke County.</p>
+<p>• <strong>The Lifesaving Gear:</strong> "Alien Suits" — wearable, sub-zero thermal sleeping bags with sleeves and boots that allow mobility, safety, and dignity while preventing hypothermia.</p>
+<p>• <strong>Sponsorship:</strong> $125 provides one full Alien Suit directly to an unsheltered neighbor.</p>
+<p class="prompt-line">👉 Type <strong>donate</strong> or visit <a href="community-relief.html" style="color: #00f0ff; text-decoration: underline;">community-relief.html</a> for the full landing page and local resources!</p>
+`,
+
+    donate: () => {
+      window.location.href = 'community-relief.html#donate';
+      return `<p class="success">🛸 Navigating to the Newport Alien Suit Relief &amp; Donation portal...</p>`;
+    },
+
+    relief: () => {
+      window.location.href = 'community-relief.html';
+      return `<p class="success">🛸 Opening the Newport Community Relief landing page...</p>`;
+    },
 
     presentation: () => {
       const link = document.createElement('a');

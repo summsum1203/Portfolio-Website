@@ -39,6 +39,7 @@ This portfolio showcases production web applications, accessible design systems,
 4. **[Health Communications Hub](https://summsum1203.github.io/Portfolio-Website/#projects)** — Public health visual communication initiative converting complex medical data into clear infographics.
 5. **[SASSy UI Component Lab](https://summsum1203.github.io/Portfolio-Website/#projects)** — Production-ready, accessible micro-components (dynamic changelog, datepicker, interactive card flip).
 6. **[The Shysti Mae Project](https://summsum1203.github.io/Portfolio-Website/#projects)** — Heartwarming community storytelling campaign championing animal welfare and adoption.
+7. **[The Newport Alien Suit Initiative](https://summsum1203.github.io/Portfolio-Website/community-relief.html)** — Grassroots humanitarian relief campaign equipping unsheltered neighbors in Cocke County, TN with wearable thermal sleeping bags ('Alien Suits') and a structured 4-step pathway back off the street.
 
 ---
 

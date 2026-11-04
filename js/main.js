@@ -352,4 +352,80 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // 7. Interactive Donation Impact Calculator
+  const calcInput = document.getElementById('calc-amount-input');
+  const calcOutput = document.getElementById('calc-impact-output');
+  const calcPledgeBtn = document.getElementById('btn-custom-pledge');
+
+  if (calcInput && calcOutput) {
+    function updateDonationImpact() {
+      const amount = parseFloat(calcInput.value) || 0;
+      const suitCost = 125;
+      const baseKitCost = 25;
+
+      let message = '';
+      if (amount <= 0) {
+        message = 'Please enter a donation amount to see your impact.';
+      } else if (amount < baseKitCost) {
+        message = `✨ Every dollar counts! Your $${amount} contribution directly supports emergency thermal supplies in Newport, TN.`;
+      } else if (amount < suitCost) {
+        const kits = Math.floor(amount / baseKitCost);
+        message = `✨ Your $${amount} contribution funds ${kits} Winter Warmth Kit${kits > 1 ? 's' : ''} (thermal socks, gloves, mylar ponchos) for unsheltered neighbors!`;
+      } else {
+        const suits = Math.floor(amount / suitCost);
+        const remainder = amount % suitCost;
+        if (suits === 1 && remainder === 0) {
+          message = `🛸 Amazing! Your $${amount} donation fully funds 1 complete sub-zero "Alien Suit" wearable sleeping bag for a Newport neighbor!`;
+        } else if (suits > 1 && remainder === 0) {
+          message = `🛸 Incredible! Your $${amount} donation fully sponsors ${suits} complete Alien Suits to keep ${suits} neighbors alive and warm this winter!`;
+        } else {
+          message = `🛸 Incredible! Your $${amount} donation funds ${suits} complete Alien Suit${suits > 1 ? 's' : ''} plus $${remainder} in emergency winter warmth supplies!`;
+        }
+      }
+
+      calcOutput.textContent = message;
+
+      if (calcPledgeBtn) {
+        const subject = encodeURIComponent(`Custom Donation Pledge: $${amount} for Newport Alien Suits`);
+        const body = encodeURIComponent(`Hi Summer,\n\nI want to pledge $${amount} to support the Newport Alien Suit Homeless Relief Initiative.\n\nImpact: ${message}\n\nPlease let me know the best way to transfer funds (PayPal, Cash App, Venmo, Check, or in-person).\n\nThank you for looking out for our community!`);
+        calcPledgeBtn.href = `mailto:summerD1203@gmail.com?subject=${subject}&body=${body}`;
+      }
+    }
+
+    calcInput.addEventListener('input', updateDonationImpact);
+    updateDonationImpact();
+  }
+
+  // 8. Relief Contact / Volunteer Form Handler
+  const reliefForm = document.getElementById('relief-contact-form');
+  const reliefFeedback = document.getElementById('relief-form-feedback');
+
+  if (reliefForm) {
+    reliefForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('relief-name').value.trim();
+      const email = document.getElementById('relief-email').value.trim();
+      const type = document.getElementById('relief-type').value;
+      const message = document.getElementById('relief-message').value.trim();
+
+      if (!name || !email || !message) {
+        alert('Please fill out all fields to connect with the relief effort!');
+        return;
+      }
+
+      const mailtoSubject = encodeURIComponent(`Newport Relief Support: ${type} from ${name}`);
+      const mailtoBody = encodeURIComponent(`Hi Summer,\n\nName: ${name}\nEmail: ${email}\nSupport Type: ${type}\n\nMessage:\n${message}\n\n-- Sent via Newport Alien Suit Relief Portal`);
+
+      if (reliefFeedback) {
+        reliefFeedback.textContent = `Thank you, ${name}! Opening your email client to connect with Summer...`;
+        reliefFeedback.classList.add('success');
+      }
+
+      setTimeout(() => {
+        window.location.href = `mailto:summerD1203@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+        reliefForm.reset();
+      }, 900);
+    });
+  }
 });
