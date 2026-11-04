@@ -56,7 +56,7 @@ This portfolio showcases production web applications, accessible design systems,
 - **Direct Email**: [summerD1203@gmail.com](mailto:summerD1203@gmail.com)
 - **LinkedIn**: [linkedin.com/in/summer-davis-dev](https://www.linkedin.com/in/summer-davis-dev)
 - **GitHub**: [@summsum1203](https://github.com/summsum1203)
-- **Portfolio Presentation**: [Download Canva Slide Deck PDF](assets/docs/Summer_Davis_Portfolio_Presentation.pdf)
+- **Portfolio Presentation**: [View Canva Slide Deck](https://canva.link/summer-davis-web-dev)
 - **Resume**: [Download ATS Resume PDF](assets/docs/Summer_Davis_Resume.pdf)
 
 ---

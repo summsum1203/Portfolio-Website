@@ -138,10 +138,10 @@
 
     presentation: () => {
       const link = document.createElement('a');
-      link.href = 'assets/docs/Summer_Davis_Portfolio_Presentation.pdf';
+      link.href = 'https://canva.link/summer-davis-web-dev';
       link.target = '_blank';
       link.click();
-      return `<p class="success">📊 Summer_Davis_Portfolio_Presentation.pdf opened in a new tab!</p>`;
+      return `<p class="success">📊 Canva portfolio presentation opened in a new tab!</p>`;
     },
 
     resume: () => {
