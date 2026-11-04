@@ -32,6 +32,7 @@
 <p><strong>attitude</strong>    - Dispense a fresh dose of SASSy tech wisdom</p>
 <p><strong>shysti</strong>      - Meet Shysti Mae, Chief Happiness Officer 🐾</p>
 <p><strong>aliensuit</strong>   - Newport homeless relief &amp; wearable sleeping bags 🛸</p>
+<p><strong>feedmysheep</strong> - Feed My Sheep Ministries &amp; Carol Livingston ❤️</p>
 <p><strong>donate</strong>      - Sponsor an Alien Suit for an unsheltered neighbor</p>
 <p><strong>presentation</strong> - View Summer's Canva Portfolio Slide Deck</p>
 <p><strong>resume</strong>      - Download Summer's ATS-friendly resume</p>
@@ -124,6 +125,16 @@
       window.location.href = 'community-relief.html';
       return `<p class="success">🛸 Opening the Newport Community Relief landing page...</p>`;
     },
+
+    feedmysheep: () => `
+<p class="highlight" style="color: #ffaa40;">❤️ FEED MY SHEEP MINISTRIES &amp; CAROL LIVINGSTON</p>
+<p>A true pillar of unconditional grace and love in Newport, Cocke County, TN:</p>
+<p>• <strong>Free Hot Meals:</strong> Serves a warm, freshly prepared meal to anyone who comes to them.</p>
+<p>• <strong>Personal Necessities:</strong> Distributes donated hygiene products, toiletries, and clothing at zero charge.</p>
+<p>• <strong>100% Donation-Powered:</strong> Survives solely on community donations and voluntary contributions.</p>
+<p>• <strong>Carol Livingston:</strong> A wonderful, selfless person who has donated many years of her life to helping the homeless and others in need.</p>
+<p class="prompt-line">👉 Learn more on the <a href="community-relief.html#feed-my-sheep" style="color: #00f0ff; text-decoration: underline;">Feed My Sheep spotlight section</a>!</p>
+`,
 
     presentation: () => {
       const link = document.createElement('a');
